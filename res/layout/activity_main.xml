@@ -14,11 +14,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
-        <TextView
+        <com.zjz.camera.preview.CameraTextureView
             android:id="@+id/camera_textureview"
             android:layout_width="0dip"
             android:layout_height="0dip"
-            android:text="11212" />
+             />
     </FrameLayout>
 
     <Button android:id="@+id/btn" 
